@@ -11,7 +11,7 @@ public class Application {
 
 	@Bean
 	public RestTemplate restTemplate(RestTemplateBuilder builder) {
-		return builder.build();
+		return builder.build(); ARUN
 	}
 	
 	public static void main(String[] args) {
